@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+header, footer {
+  background-color: #7e1d00;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 4rem
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 0 1rem 0;
+  list-style-type: none;
+  display: flex;
+  border-width: 0 .1rem;
+  border-color: white;
+  border-style: solid;
+}
+
+nav li {
+  padding: 0 1rem;
+  border-width: 0 .1rem;
+  border-color: white;
+  border-style: solid;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+footer {
+  font-size: 1rem
+}
+
+section {
+  background-color: #eb4200;
+}
